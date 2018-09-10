@@ -1,0 +1,28 @@
+Angular install 
+npm install -g @angular/cli
+
+Create project structure 
+ng new my-bankapp --style=sass   //less scss
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+============================  install bootrape ========================================================
+Install bootsrape in angualr projrect
+npm install --save @ng-bootstrap/ng-bootstrap
+ng-bootstrap configurations as below:
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// app.module.ts
+@NgModule({
+......
+imports: [
+NgbModule.forRoot()
+]
+......
+})
+// app.module.ts
+========================================  Create login Screen ============================================
+
+http://jasonwatmore.com/post/2018/05/16/angular-6-user-registration-and-login-example-tutorial
+
